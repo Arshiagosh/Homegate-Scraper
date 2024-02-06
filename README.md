@@ -1,6 +1,6 @@
 # Real Estate Scraper and Analysis Application
 
-This Python application is designed to scrape real estate data from the Homegate (link)[https://www.homegate.ch/] website, save it to MongoDB, and perform data analysis. The application includes a graphical user interface (GUI) for user input, a scraper module for data extraction, a MongoDB admin module for data storage, and a plotting module for data visualization and linear regression.
+This Python application is designed to scrape real estate data from the [Homegate](https://www.homegate.ch/) website, save it to MongoDB, and perform data analysis. The application includes a graphical user interface (GUI) for user input, a scraper module for data extraction, a MongoDB admin module for data storage, and a plotting module for data visualization and linear regression.
 
 ## Requirements
 
@@ -58,6 +58,6 @@ This Python application is designed to scrape real estate data from the Homegate
 
 ## Notes
 
-- Please replace the placeholder values in `local_settings.py` with your actual MongoDB database connection details. Use the sample_settings.py for it.
+- Please replace the placeholder values in `local_settings.py` with your actual MongoDB database connection details. Use the `sample_settings.py` for it.
 
 - This application assumes the existence of a MongoDB database. Ensure that the database exists before running the application.
